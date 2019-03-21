@@ -1,0 +1,86 @@
+body{
+    background-color: pink;
+}
+
+li{
+margin-bottom: .5rem;
+list-style-type: disc;
+/* try to get bulleits on each line */
+}
+
+h1{
+    display: inline-block;
+    background-color: white;
+    color: pink;
+    margin: 20px auto 20px auto;
+    width: 100%;
+    font-size: 3rem;
+    padding: .5rem;
+    text-align: center; /*try to get cystal collector centered */
+}
+
+.instructions{
+    background-color: blueviolet;
+    color: mediumseagreen;
+    margin: 20px auto 20px auto;
+    width: 100%;
+    padding: .5rem;
+    text-align: center;
+}
+
+h2{
+    background-color: lime;
+    color: #221122;
+    height: 75px;
+    font-size: 3rem;
+    padding: .5rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.totalScore{
+    background-color: peru;
+    color: rebeccapurple;
+    width: 100%;
+}
+
+h3{
+    margin: 20px auto 20px auto;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+.winslosses{
+    display: inline-block;
+    background-color: yellow;
+    color: #221122;
+    font-size: 1.5rem;
+    padding: .5rem;
+    text-align: center;
+    height: 75px;
+    flex-grow: 1;
+}
+
+.crystalPictures img{
+    height: 225px;
+    width: 225px;
+}
+
+.flexBoxWinsLosses{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.flexBoxWinsLosses h2{
+    flex-grow: 1;
+}
+
+.crystalPictures{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
